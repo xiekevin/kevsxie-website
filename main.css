@@ -1,0 +1,65 @@
+html, body {
+  height:100%;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+}
+
+div {
+  background-color: rgba(155, 210, 226, 0.1);
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.overlay-container {
+  position: relative;
+  height: 100%;
+}
+
+.overlay-text {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  color: #19526f;
+}
+
+.overlay-name {
+  font-size: 55px;
+  letter-spacing: 5px;
+}
+
+.overlay-secondary-text {
+  display: inline-block;
+  color: rgba(221, 85, 85, 0.65);
+}
+
+.overlay-description {
+  margin-top: -15px;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.glyph-container {
+  margin-left: -10px;
+  margin-top: 0px;
+}
+
+.social-button-container {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.40);
+  margin-left: 10px;
+}
+
+.social-button {
+  width: 30px;
+}
+
+

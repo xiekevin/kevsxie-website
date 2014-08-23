@@ -1,0 +1,26 @@
+{
+  "name": "kevsxie-website",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "bower": "^1.3.9",
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiekevin/kevsxie-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiekevin/kevsxie-website/issues"
+  },
+  "homepage": "https://github.com/xiekevin/kevsxie-website"
+}

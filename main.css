@@ -1,65 +1,86 @@
-html, body {
-  height:100%;
-}
+/* Color definitions for site */
+/* Dimention definitions for icons */
+html,
+body {
+  height: 100%; }
 
 body {
   font-family: Open Sans, sans-serif;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 div {
-  background-color: rgba(155, 210, 226, 0.1);
-  padding: 10px;
-}
+  background-color: rgba(155, 210, 226, 0);
+  padding: 0;
+  margin: 0; }
 
 .center {
-  text-align: center;
-}
+  text-align: center; }
 
 .overlay-container {
   position: relative;
-  height: 100%;
-}
+  height: 100%; }
+
+.background-image {
+  width: 100%;
+  height: 100%; }
 
 .overlay-text {
   position: absolute;
   width: 100%;
   top: 25%;
-  color: #19526f;
-}
+  color: #19526f; }
+
+.overlay-description {
+  margin-top: -5px;
+  letter-spacing: 2px;
+  font-size: 14px; }
 
 .overlay-name {
   font-size: 55px;
-  letter-spacing: 5px;
-}
+  letter-spacing: 10px; }
 
 .overlay-secondary-text {
   display: inline-block;
-  color: rgba(221, 85, 85, 0.65);
-}
-
-.overlay-description {
-  margin-top: -15px;
-  letter-spacing: 1px;
-  font-size: 14px;
-}
+  color: rgba(221, 85, 85, 0.65); }
 
 .glyph-container {
+  /* margin left used for centering due to margin-left of social-button-cont.. */
   margin-left: -10px;
-  margin-top: 0px;
-}
+  margin-top: 10px; }
 
 .social-button-container {
+  position: relative;
   display: inline-block;
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
-  background-color: rgba(255, 255, 255, 0.40);
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-color: rgba(255, 255, 255, 0.4);
   margin-left: 10px;
-}
+  margin-top: 10px; }
 
-.social-button {
-  width: 30px;
-}
+.social-button, .instagram, .linkedin, .github, .email {
+  position: absolute;
+  top: 50%; }
 
+.instagram {
+  width: 25px;
+  margin-left: -12.5px;
+  margin-top: -12.5px; }
 
+.linkedin {
+  width: 35px;
+  margin-left: -17.5px;
+  margin-top: -17.5px; }
+
+.github {
+  width: 40px;
+  margin-left: -20px;
+  margin-top: -20px; }
+
+.email {
+  /* vector size of email is 14 x 10 so width of 28px = height of 20*/
+  width: 28px;
+  margin-left: -14px;
+  margin-top: -10px; }
+
+/*# sourceMappingURL=main.css.map */

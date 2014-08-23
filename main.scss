@@ -1,0 +1,99 @@
+/* Color definitions for site */
+$color-div-background: rgba(155, 210, 226, 0.0);
+$color-primary: #19526f;
+$color-secondary: rgba(221, 85, 85, 0.65);
+$color-social-button-container: rgba(255, 255, 255, 0.40);
+
+/* Dimention definitions for icons */
+$size-instagram: 25px;
+$size-linkedin: 35px;
+$size-github: 40px;
+$size-email: 28px;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+}
+div {
+  background-color: $color-div-background;
+  padding: 0;
+  margin: 0;
+}
+.center {
+  text-align: center;
+}
+.overlay-container {
+  position: relative;
+  height: 100%;
+}
+.background-image {
+  width: 100%;
+  height: 100%;
+}
+.overlay-text {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  color: $color-primary;
+}
+.overlay-description {
+  margin-top: -5px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.overlay-name {
+  font-size: 55px;
+  letter-spacing: 10px;
+}
+.overlay-secondary-text {
+  display: inline-block;
+  color: $color-secondary;
+}
+.glyph-container {
+  /* margin left used for centering due to margin-left of social-button-cont.. */
+  margin-left: -10px;
+  margin-top: 10px;
+}
+.social-button-container {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-color: $color-social-button-container;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.social-button {
+  position: absolute;
+  top: 50%;
+}
+.instagram {
+  @extend .social-button;
+  width: $size-instagram;
+  margin-left: $size-instagram / -2;
+  margin-top: $size-instagram / -2;
+}
+.linkedin {
+  @extend .social-button;
+  width: $size-linkedin;
+  margin-left: $size-linkedin / -2;
+  margin-top: $size-linkedin / -2;
+}
+.github {
+  @extend .social-button;
+  width: $size-github;
+  margin-left: $size-github / -2;
+  margin-top: $size-github / -2;
+}
+.email {
+  @extend .social-button;
+  /* vector size of email is 14 x 10 so width of 28px = height of 20*/
+  width: $size-email;
+  margin-left: $size-email / -2;
+  margin-top: $size-email * 10 / 14 / -2;
+}

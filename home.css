@@ -41,7 +41,7 @@ div {
 
 .overlay-secondary-text {
   display: inline-block;
-  color: rgba(221, 85, 85, 0.65); }
+  color: rgba(186, 0, 0, 0.75); }
 
 .glyph-container {
   /* margin left used for centering due to margin-left of social-button-cont.. */
@@ -57,6 +57,8 @@ div {
   background-color: rgba(255, 255, 255, 0.4);
   margin-left: 10px;
   margin-top: 10px; }
+  .social-button-container:hover {
+    background-color: rgba(255, 255, 255, 0.65); }
 
 .social-button, .instagram, .linkedin, .github, .email {
   position: absolute;
@@ -82,5 +84,18 @@ div {
   width: 28px;
   margin-left: -14px;
   margin-top: -10px; }
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0; }
+
+.footer-copyright-text {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.65);
+  letter-spacing: 0.5px;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 3px; }
 
 /*# sourceMappingURL=home.css.map */
